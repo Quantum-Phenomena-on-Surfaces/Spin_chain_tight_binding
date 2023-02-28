@@ -2,6 +2,15 @@ Tight-binding calculation of an infinite spin chain on a 1-D superconductor
 ###########
 To calculate band structure and topological invariant run:
 python BCS_infinite_chain_k_space.py
+#
+Parameters: param_phase_diag.py
 ##########
-To obtain the topological phase diagram rum:
+To obtain the topological phase diagram run:
 python PhaseDiag_chain_k_space_JS_mu_.py
+#
+Parameters: param_inf.py
+#########
+To calculate the finite spin chain run:
+python Run_BCS_chain_k_space.py
+#
+Parameters: param.py
